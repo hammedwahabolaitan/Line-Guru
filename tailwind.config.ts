@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,14 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				guru: {
+					'blue': '#2151f5',
+					'purple': '#7b3fe4',
+					'cyan': '#22d3ee',
+					'dark': '#0f172a',
+					'darker': '#0d1424',
+					'light': '#e2e8f0'
 				}
 			},
 			borderRadius: {
@@ -84,11 +93,25 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				'pulse-slow': {
+					'0%, 100%': { opacity: '1' },
+					'50%': { opacity: '0.8' }
+				},
+				'float': {
+					'0%, 100%': { transform: 'translateY(0)' },
+					'50%': { transform: 'translateY(-10px)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-slow': 'pulse-slow 3s infinite ease-in-out',
+				'float': 'float 6s infinite ease-in-out'
+			},
+			backgroundImage: {
+				'hero-gradient': 'linear-gradient(to right, #2151f5, #7b3fe4)',
+				'card-gradient': 'linear-gradient(to bottom right, rgba(33, 81, 245, 0.1), rgba(123, 63, 228, 0.1))'
 			}
 		}
 	},
