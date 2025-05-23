@@ -1,14 +1,14 @@
 
 import { Button } from "@/components/ui/button";
-import { BadgeIndian, Cricket, Football, Baseball, Tennis, ChevronRight } from "lucide-react";
+import { Users, Gamepad2, Trophy, Dumbbell, CircleDot, ChevronRight } from "lucide-react";
 
 const SportsNav = () => {
   const sports = [
-    { name: "Cricket", icon: Cricket },
-    { name: "Football", icon: Football },
-    { name: "Tennis", icon: Tennis },
-    { name: "Basketball", icon: Baseball },
-    { name: "Rugby", icon: BadgeIndian },
+    { name: "Cricket", icon: Trophy },
+    { name: "Football", icon: Gamepad2 },
+    { name: "Tennis", icon: Dumbbell },
+    { name: "Basketball", icon: CircleDot },
+    { name: "Rugby", icon: Users },
   ];
 
   return (

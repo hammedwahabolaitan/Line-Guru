@@ -8,7 +8,6 @@ import {
   Globe, 
   ChevronDown,
   Trophy,
-  Casino,
   Gamepad2,
   LineChart,
   LayoutDashboard
@@ -48,7 +47,7 @@ const Header = () => {
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-56">
               <DropdownMenuItem>
-                <Casino className="mr-2 h-4 w-4" />
+                <Trophy className="mr-2 h-4 w-4" />
                 <span>Live Casino</span>
               </DropdownMenuItem>
               <DropdownMenuItem>
