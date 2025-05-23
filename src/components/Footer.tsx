@@ -4,7 +4,7 @@ import {
   Instagram, 
   TrendingUp, 
   Twitter, 
-  Github, 
+  Facebook, 
   Youtube, 
   ChevronRight 
 } from "lucide-react";
@@ -21,7 +21,7 @@ const Footer = () => {
               <span className="font-bold text-xl">Line Guru Pro</span>
             </div>
             <p className="text-gray-400 mb-6">
-              Line Guru Pro is a professional cryptocurrency trading platform designed for both beginners and experienced traders. Our platform offers a wide range of trading pairs with competitive fees.
+              Line Guru Pro is a premier betting platform offering a wide range of sports betting markets, live betting, casino games, and more. Bet responsibly with our secure and reliable platform.
             </p>
             <div className="flex space-x-4">
               <Button variant="outline" size="icon" className="rounded-full border-gray-700 hover:border-gray-500 hover:bg-gray-800">
@@ -31,7 +31,7 @@ const Footer = () => {
                 <Instagram className="h-5 w-5" />
               </Button>
               <Button variant="outline" size="icon" className="rounded-full border-gray-700 hover:border-gray-500 hover:bg-gray-800">
-                <Github className="h-5 w-5" />
+                <Facebook className="h-5 w-5" />
               </Button>
               <Button variant="outline" size="icon" className="rounded-full border-gray-700 hover:border-gray-500 hover:bg-gray-800">
                 <Youtube className="h-5 w-5" />
@@ -41,93 +41,93 @@ const Footer = () => {
           
           {/* Links */}
           <div className="space-y-4">
-            <h3 className="font-bold text-lg">Products</h3>
+            <h3 className="font-bold text-lg">Sports</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" /> Spot Trading
+                  <ChevronRight className="h-4 w-4 mr-1" /> Cricket
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" /> Futures
+                  <ChevronRight className="h-4 w-4 mr-1" /> Football
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" /> Staking
+                  <ChevronRight className="h-4 w-4 mr-1" /> Tennis
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" /> Earn
+                  <ChevronRight className="h-4 w-4 mr-1" /> Basketball
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" /> Launchpad
+                  <ChevronRight className="h-4 w-4 mr-1" /> Horse Racing
                 </a>
               </li>
             </ul>
           </div>
           
           <div className="space-y-4">
-            <h3 className="font-bold text-lg">Services</h3>
+            <h3 className="font-bold text-lg">Casino</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" /> Buy Crypto
+                  <ChevronRight className="h-4 w-4 mr-1" /> Live Casino
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" /> Markets
+                  <ChevronRight className="h-4 w-4 mr-1" /> Slots
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" /> Trading Fee
+                  <ChevronRight className="h-4 w-4 mr-1" /> Table Games
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" /> API
+                  <ChevronRight className="h-4 w-4 mr-1" /> Card Games
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" /> Referral
+                  <ChevronRight className="h-4 w-4 mr-1" /> Jackpots
                 </a>
               </li>
             </ul>
           </div>
           
           <div className="space-y-4">
-            <h3 className="font-bold text-lg">Support</h3>
+            <h3 className="font-bold text-lg">Help</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" /> Help Center
+                  <ChevronRight className="h-4 w-4 mr-1" /> FAQs
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" /> Beginner Guide
+                  <ChevronRight className="h-4 w-4 mr-1" /> Betting Rules
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" /> Announcements
+                  <ChevronRight className="h-4 w-4 mr-1" /> Responsible Gaming
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" /> User Feedback
+                  <ChevronRight className="h-4 w-4 mr-1" /> Contact Support
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" /> Submit a Ticket
+                  <ChevronRight className="h-4 w-4 mr-1" /> Payment Methods
                 </a>
               </li>
             </ul>
@@ -143,22 +143,22 @@ const Footer = () => {
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" /> Careers
+                  <ChevronRight className="h-4 w-4 mr-1" /> Affiliates
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" /> Business Contacts
+                  <ChevronRight className="h-4 w-4 mr-1" /> Terms & Conditions
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" /> Press
+                  <ChevronRight className="h-4 w-4 mr-1" /> Privacy Policy
                 </a>
               </li>
               <li>
                 <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors flex items-center">
-                  <ChevronRight className="h-4 w-4 mr-1" /> Community
+                  <ChevronRight className="h-4 w-4 mr-1" /> Licenses
                 </a>
               </li>
             </ul>
@@ -168,17 +168,17 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-gray-800">
           <div className="flex flex-col md:flex-row gap-4 justify-between items-center">
             <p className="text-gray-400 text-sm">
-              © 2025 Line Guru Pro. All rights reserved.
+              © 2025 Line Guru Pro. All rights reserved. 18+. Play Responsibly.
             </p>
             <div className="flex gap-4 text-sm">
+              <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors">
+                Terms & Conditions
+              </a>
               <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors">
                 Privacy Policy
               </a>
               <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors">
-                Terms of Service
-              </a>
-              <a href="#" className="text-gray-400 hover:text-guru-blue transition-colors">
-                Cookie Preferences
+                Responsible Gambling
               </a>
             </div>
           </div>

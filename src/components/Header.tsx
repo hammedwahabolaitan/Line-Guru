@@ -2,15 +2,16 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { 
-  BarChart, 
-  BookOpen, 
-  ChevronDown, 
-  Globe, 
-  LayoutDashboard, 
-  Menu, 
   TrendingUp, 
-  UserCircle, 
-  X 
+  Menu, 
+  X, 
+  Globe, 
+  ChevronDown,
+  Trophy,
+  Casino,
+  Gamepad2,
+  LineChart,
+  LayoutDashboard
 } from "lucide-react";
 import { 
   DropdownMenu,
@@ -36,32 +37,33 @@ const Header = () => {
         
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-1">
+          <Button variant="ghost" className="nav-link flex items-center">Sports</Button>
+          <Button variant="ghost" className="nav-link flex items-center">Live</Button>
+          
           <DropdownMenu>
             <DropdownMenuTrigger asChild>
               <Button variant="ghost" className="nav-link flex items-center">
-                Markets <ChevronDown className="ml-1 h-4 w-4" />
+                Casino <ChevronDown className="ml-1 h-4 w-4" />
               </Button>
             </DropdownMenuTrigger>
             <DropdownMenuContent className="w-56">
               <DropdownMenuItem>
-                <BarChart className="mr-2 h-4 w-4" />
-                <span>Market Overview</span>
+                <Casino className="mr-2 h-4 w-4" />
+                <span>Live Casino</span>
               </DropdownMenuItem>
               <DropdownMenuItem>
-                <TrendingUp className="mr-2 h-4 w-4" />
-                <span>Spot Trading</span>
+                <Gamepad2 className="mr-2 h-4 w-4" />
+                <span>Slots</span>
               </DropdownMenuItem>
               <DropdownMenuItem>
                 <LayoutDashboard className="mr-2 h-4 w-4" />
-                <span>Futures</span>
+                <span>Table Games</span>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
           
-          <Button variant="ghost" className="nav-link">Trade</Button>
-          <Button variant="ghost" className="nav-link">Earn</Button>
-          <Button variant="ghost" className="nav-link">Learn</Button>
-          <Button variant="ghost" className="nav-link">About</Button>
+          <Button variant="ghost" className="nav-link">Promotions</Button>
+          <Button variant="ghost" className="nav-link">Exchange</Button>
         </nav>
         
         {/* User Actions */}
@@ -74,10 +76,10 @@ const Header = () => {
             </DropdownMenuTrigger>
             <DropdownMenuContent>
               <DropdownMenuItem>English</DropdownMenuItem>
-              <DropdownMenuItem>Spanish</DropdownMenuItem>
-              <DropdownMenuItem>French</DropdownMenuItem>
-              <DropdownMenuItem>German</DropdownMenuItem>
-              <DropdownMenuItem>Chinese</DropdownMenuItem>
+              <DropdownMenuItem>Hindi</DropdownMenuItem>
+              <DropdownMenuItem>Bengali</DropdownMenuItem>
+              <DropdownMenuItem>Telugu</DropdownMenuItem>
+              <DropdownMenuItem>Tamil</DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
           
@@ -97,11 +99,11 @@ const Header = () => {
       {mobileMenuOpen && (
         <div className="md:hidden bg-guru-dark border-t border-gray-800">
           <div className="px-4 py-2 space-y-1">
-            <Button variant="ghost" className="w-full justify-start">Markets</Button>
-            <Button variant="ghost" className="w-full justify-start">Trade</Button>
-            <Button variant="ghost" className="w-full justify-start">Earn</Button>
-            <Button variant="ghost" className="w-full justify-start">Learn</Button>
-            <Button variant="ghost" className="w-full justify-start">About</Button>
+            <Button variant="ghost" className="w-full justify-start">Sports</Button>
+            <Button variant="ghost" className="w-full justify-start">Live</Button>
+            <Button variant="ghost" className="w-full justify-start">Casino</Button>
+            <Button variant="ghost" className="w-full justify-start">Promotions</Button>
+            <Button variant="ghost" className="w-full justify-start">Exchange</Button>
             
             <div className="pt-4 flex flex-col space-y-2">
               <Button variant="ghost" className="justify-center">Log In</Button>
